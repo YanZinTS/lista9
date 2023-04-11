@@ -1,7 +1,10 @@
 palavra = input("Digite uma palavra: ")
+
 vogais = "aeiouAEIOU"
 newpalavra = ""
-for letra in palavra:
-    if letra not in vogais:
-        newpalavra += letra
+
+for letras in palavra:
+    if letras not in vogais:
+        newpalavra += letras
+        
 print("A nova palavra sem vogais é", newpalavra)
