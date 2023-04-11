@@ -1,12 +1,12 @@
-word = input("Digite uma palavra: ")
-vowels_count = 0
+palavra = input("Digite uma palavra: ")
+cot = 0
 
-for letter in word:
+for letter in palavra:
     if letter.lower() in "aeiou":
-        vowels_count += 1
+        cot += 1
 
-replace_letter = input("Digite um caractere para substituir as vogais: ")
-new_word = word.replace("a", replace_letter).replace("e", replace_letter).replace("i", replace_letter).replace("o", replace_letter).replace("u", replace_letter)
+caracter = input("Digite um caractere para substituir as vogais: ")
+newpalavra = palavra.replace("a", caracter).replace("e", caracter).replace("i", caracter).replace("o", caracter).replace("u", caracter)
 
-print(f"A palavra '{word}' tem {vowels_count} vogais.")
-print(f"A palavra '{new_word}' com as vogais substituídas por '{replace_letter}' é: {new_word}")
+print(f"A palavra '{palavra}' tem {cot} vogais")
+print(f"A palavra '{newpalavra}' com as vogais substituídas por '{caracter}' agora é: {newpalavra}")

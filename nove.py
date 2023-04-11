@@ -1,3 +1,3 @@
-string = input("Digite uma string contendo apenas 0's e 1's: ")
-numero_uns = string.count("1")
-print("O número de 1's na string é", numero_uns)
+palavra = input("Digite uma palavra com apenas 0's e 1's: ")
+numuns = palavra.count("1")
+print("O número de 1's na palavra é", numuns)

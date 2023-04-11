@@ -1,8 +1,8 @@
-phrase = input("Digite uma frase: ")
-count = 0
+frase = input("Digite uma frase: ")
+cot = 0
 
-for char in phrase:
+for char in frase:
     if char == " ":
-        count += 1
+        cot += 1
 
-print(f"A frase '{phrase}' tem {count} caracteres brancos.")
+print(f"A frase '{frase}' tem {cot} caracteres brancos")

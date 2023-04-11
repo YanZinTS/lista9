@@ -1,3 +1,3 @@
-string = input("Digite uma string: ")
-comprimento = len(string)
-print("O comprimento da string é", comprimento)
+palavra = input("Digite uma palavra: ")
+comprimento = len(palavra)
+print("O comprimento da palavra é", comprimento)

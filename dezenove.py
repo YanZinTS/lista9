@@ -1,3 +1,3 @@
-word = input("Digite uma palavra em letras maiúsculas: ")
-lowercase_word = word.lower()
-print(f"A palavra em letras minúsculas é: {lowercase_word}")
+palavra = input("Digite uma palavra toda em letras maiúsculas: ")
+newpalavra = palavra.lower()
+print(f"A palavra em letras minúsculas fica assim: {newpalavra}")

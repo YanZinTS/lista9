@@ -1,8 +1,8 @@
-word = input("Digite uma palavra: ")
+palavra = input("Digite uma palavra: ")
 result = ""
 
-for char in word:
-    ascii_value = ord(char) + 1
-    result += chr(ascii_value)
+for char in palavra:
+    val = ord(char) + 1
+    result += chr(val)
 
-print(f"A palavra '{word}' com cada caractere incrementado em 1 no valor ASCII é: {result}")
+print(f"A palavra '{palavra}' com cada caractere incrementado é: {result}")

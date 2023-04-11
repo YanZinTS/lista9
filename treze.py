@@ -1,7 +1,7 @@
-string = input("Digite uma string: ")
+palavra = input("Digite uma palavra: ")
 vogais = "aeiouAEIOU"
-nova_string = ""
-for letra in string:
+newpalavra = ""
+for letra in palavra:
     if letra not in vogais:
-        nova_string += letra
-print("A nova string sem vogais é", nova_string)
+        newpalavra += letra
+print("A nova palavra sem vogais é", newpalavra)

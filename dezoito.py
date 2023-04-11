@@ -1,10 +1,10 @@
-word = input("Digite uma palavra: ")
-result = ""
+palavra = input("Digite uma palavra: ")
+resultado = ""
 
-for char in word:
-    ascii_value = ord(char)
-    if 65 <= ascii_value <= 90:
-        ascii_value -= 32
-    result += chr(ascii_value)
+for char in palavra:
+    val = ord(char)
+    if 65 <= val <= 90:
+        val -= 32
+    resultado += chr(val)
 
-print(f"A palavra '{word}' com as letras maiúsculas convertidas para minúsculas é: {result}")
+print(f"A palavra '{palavra}' com as letras maiúsculas convertidas para minúsculas é: {resultado}")

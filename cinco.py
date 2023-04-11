@@ -1,7 +1,7 @@
-string1 = input("Digite a primeira string: ")
-string2 = input("Digite a segunda string: ")
+palavra1 = input("Digite a primeira palavra: ")
+palavra2 = input("Digite a segunda palavra: ")
 
-if string1 == string2:
-    print("As strings são iguais.")
+if palavra1 == palavra2:
+    print("As palavras são iguais")
 else:
-    print("As strings são diferentes.")
+    print("As palavras são diferentes")

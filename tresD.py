@@ -1,2 +1,2 @@
-string = input("Digite uma string: ")
-print(string)
+palavra = input("Digite uma palavra: ")
+print(palavra)
